@@ -37,14 +37,14 @@ public class CrashActivity extends Activity {
 		Intent sendIntent = new Intent(Intent.ACTION_SEND);
 		String subject = "Error Description";
 		String body = "Sorry for you inconvenience .\nWe assure you that we will solve this problem as soon possible " 
-					+ "\n\nThanks ThinLenses";
+					+ "\n\nThanks using app.";
 		
 		sendIntent.setType("plain/text");
-		sendIntent.putExtra(Intent.EXTRA_EMAIL,new String[] {"ajaysaini.gv@gmail.com"});
+		sendIntent.putExtra(Intent.EXTRA_EMAIL,new String[] {"example@gmail.com"});
 		sendIntent.putExtra(Intent.EXTRA_TEXT, body);
 		sendIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
 		sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(filePath)) );
 		sendIntent.setType("message/rfc822");
-		_context.startActivity( Intent.createChooser(sendIntent, "Virtual Mirror"));
+		_context.startActivity( Intent.createChooser(sendIntent, "App_name"));
 	}
 }
