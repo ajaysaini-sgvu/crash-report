@@ -36,8 +36,8 @@ public class CrashActivity extends Activity {
 	private void sendErrorMail(Context _context , String filePath) {
 		Intent sendIntent = new Intent(Intent.ACTION_SEND);
 		String subject = "Error Description";
-		String body = "Sorry for you inconvenience .\nWe assure you that we will solve this problem as soon possible " 
-					+ "\n\nThanks using app.";
+		String body = "Sorry for your inconvenience .\nWe assure you that we will solve this problem as soon possible." 
+					+ "\n\nThanks for using app.";
 		
 		sendIntent.setType("plain/text");
 		sendIntent.putExtra(Intent.EXTRA_EMAIL,new String[] {"example@gmail.com"});

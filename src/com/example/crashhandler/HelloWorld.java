@@ -2,7 +2,6 @@ package com.example.crashhandler;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -19,12 +18,7 @@ public class HelloWorld extends Activity {
         findViewById(R.id.btn).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				try {
-					System.out.println(userName);
-				}
-				catch(Exception e) {
-					Log.v("VM","Exception occur");
-				}
+				System.out.println(userName);
 			}
 		});
     }
