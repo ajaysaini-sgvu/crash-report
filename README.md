@@ -1,7 +1,7 @@
 Crash Report
 ============
 
-Crash Report is android project designed to get crash report of the application which run across all versions of Android. When your application crash then it will list of email applications to the user to send that crash logs to the developer email.
+Crash Report is android project designed to send crash report of the application which run across all versions of Android to developer. When an application crash then it lists a set of email applications to the user to send the crash logs to the developer email.
 
 How to use this:-
 -----------------------
