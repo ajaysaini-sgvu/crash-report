@@ -10,11 +10,3 @@ Copy the `CrashActivity.java`, `ExceptionHandler.java`, `Helper.java` in your an
 
 You can change the developer email in the `CrashActivity.java` on which you want to receive the crash logs.
 
-
-Developed By
--------------------
-
-    Ajay Saini - ajaysaini.sgvu@gmail.com
-    
-    
-
